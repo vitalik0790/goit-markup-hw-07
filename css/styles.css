@@ -738,7 +738,7 @@ body {
   pointer-events: none;
 }
 
-/* ВІКНО КНОПКИ */
+/* СЕКЦІЯ КНОПКИ */
 
 .modal__form-field {
   position: relative;
@@ -851,7 +851,7 @@ body {
   margin-right: 8px;
 }
 
-.modal__checkbox:checked + .modal-label-policy::before {
+.modal__checkbox:checked + .modal__label-policy::before {
   background-image: url("../img/icon/check.svg");
   border: none;
 }
@@ -870,7 +870,7 @@ body {
   color: #ffffff;
 }
 
-.modal__policy__field {
+.modal__policy-field {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
