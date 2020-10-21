@@ -190,7 +190,7 @@ nav ul li:not(:last-child) {
 
 .auth-icon {
   margin-right: 10px;
-  fill: var(--primary-text-color);
+  fill: var(--main-text-color);
 }
 
 .auth-item:hover .auth-icon,
