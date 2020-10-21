@@ -459,8 +459,8 @@ body {
   transition: 250ms var(--time-distribution-function);
 }
 
-.ourteam__social-link:hover .icon,
-.ourteam__social-link:focus .icon {
+.ourteam__social-link:hover .ourteam__icon,
+.ourteam__social-link:focus .ourteam__icon {
   fill: var(--secondary-text-color);
   transition: 250ms var(--time-distribution-function);
 }
