@@ -201,7 +201,7 @@ nav ul li:not(:last-child) {
 
 /* Кнопки */
 
-.button {
+.button__icon {
   padding: 6px 22px;
   background: rgba(245, 244, 250, 1);
   border-radius: 4px;
@@ -217,33 +217,34 @@ nav ul li:not(:last-child) {
   border: none;
 }
 
-.button:hover,
-.button:focus {
+.button__icon:hover,
+.button__icon:focus {
   background: var(--text-hover-focus);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
-  transition: 250ms var(--time-distribution-function);
-}
-
-.button:hover,
-.button:focus {
   color: var(--white-text-background);
   transition: 250ms var(--time-distribution-function);
 }
 
-.main-section {
+/* .button__item:hover,
+.button__item:focus {
+  color: var(--white-text-background);
+  transition: 250ms var(--time-distribution-function);
+} */
+
+.button {
   padding-top: 94px;
   padding-bottom: 94px;
 }
 
-.button-list {
+.button__list {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
 }
 
-.lii-item:not(:last-child) {
+.button__item:not(:last-child) {
   margin-right: 8px;
 }
 
@@ -416,7 +417,7 @@ nav ul li:not(:last-child) {
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--secondary-text-color);
+  color: var(--white-text-background);
   margin-bottom: 20px;
 }
 
