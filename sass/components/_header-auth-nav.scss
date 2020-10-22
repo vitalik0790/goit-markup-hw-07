@@ -1,0 +1,39 @@
+.auth-nav__item {
+  color: var(--primary-text-color);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.auth-nav__item:hover,
+.auth-nav__item:focus {
+  color: var(--text-hover-focus);
+  transition: 250ms var(--time-distribution-function);
+}
+
+.auth-nav {
+  display: flex;
+  margin-left: auto;
+}
+
+.auth-nav__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.auth-nav__item_tel {
+  margin-left: 50px;
+}
+
+.auth-nav__icon {
+  margin-right: 10px;
+  fill: var(--primary-text-color);
+}
+
+.auth-nav__item:hover .auth-nav__icon {
+  fill: var(--text-hover-focus);
+  transition: 250ms var(--time-distribution-function);
+}
